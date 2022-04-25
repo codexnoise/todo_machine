@@ -5,8 +5,8 @@ function ChangeAlert({ show, toggleShow }) {
   if (show) {
     return (
       <div>
-        <p>Existen cambios en el local storage</p>
-        <button onClick={() => toggleShow(false)}>Reload Todos</button>
+        <p>There are changes in the local storage</p>
+        <button onClick={() => toggleShow(false)}>Reload Tasks</button>
       </div>
     );
   } else {
