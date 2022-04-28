@@ -20,7 +20,6 @@ function TodoForm({ addTodo, setOpenModal }) {
 
   return (
     <form onSubmit={onSubmit}>
-      <label>Escribe tu nuevo To Do</label>
       <textarea
         value={newTodoValue}
         onChange={onChange}

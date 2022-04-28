@@ -1,18 +1,11 @@
 form {
   width: 90%;
   max-width: 300px;
-  background-color: #fff;
+  background-color: black;
   padding: 33px 40px;
   display: flex;
   align-content: center;
   flex-direction: column;
-}
-
-label {
-  text-align: center;
-  font-weight: bold;
-  font-size: #1E1E1F;
-  margin-bottom: 26px;
 }
 
 textarea {
@@ -39,7 +32,7 @@ textarea:focus {
 }
 
 .TodoForm-buttonContainer {
-  margin-top: 14px;
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;

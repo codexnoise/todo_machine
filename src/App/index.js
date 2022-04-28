@@ -12,6 +12,7 @@ import { TodoHeader } from "../TodoHeader";
 import { TodoCounter } from "../TodoCounter";
 import { TodoSearch } from "../TodoSearch";
 import { ChangeAlertWithStorageListener } from "../ChangeAlert";
+import "./App.css";
 
 function App() {
   const {
@@ -46,7 +47,7 @@ function App() {
         onLoading={() => <TodosLoading />}
         onEmptyTodos={() => <EmptyTodos />}
         onEmptySearchResults={(searchText) => (
-          <p>NO hay resultados para {searchText}</p>
+          <p className="searched">no results found for: "{searchText}"</p>
         )}
         // render={(todo) => (
         //   <TodoItem
