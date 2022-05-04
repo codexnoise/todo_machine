@@ -6,7 +6,7 @@ function withStorageListener(WrappedComponent) {
 
     window.addEventListener("storage", (change) => {
       if (change.key === "TODOS_V1") {
-        console.log("HAY CAMBIOS EN EL OCAL STORAGE");
+        //console.log("HAY CAMBIOS EN EL OCAL STORAGE");
         setStorageChange(true);
       }
     });
@@ -16,7 +16,17 @@ function withStorageListener(WrappedComponent) {
       setStorageChange(false);
     };
 
-    return <WrappedComponent show={storageChange} toggleShow={toggleShow} />;
+    const cancelShow = () => {
+      setStorageChange(false);
+    };
+
+    return (
+      <WrappedComponent
+        show={storageChange}
+        toggleShow={toggleShow}
+        cancelShow={cancelShow}
+      />
+    );
   };
 }
 
