@@ -10,3 +10,54 @@
     align-items: center;
     color: white;
 }
+
+.ChangeAlertContainer {
+    width: 90%;
+    max-width: 300px;
+    height: 20%;
+    max-width: 300px;
+    background-color: black;
+    padding: 33px 40px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.textAlert {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ChangeAlert-buttonContainer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.ChangeAlert-button {
+    right: 240px;
+    top:50px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    color: #202329;
+    font-weight: 400;
+    width: 120px;
+    height: 48px;
+    border-radius: 2px;
+    border: none;
+    font-family: 'Montserrat';
+}
+
+.ChangeAlert-button-reload {
+    background-color: green;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+}
+
+.ChangeAlert-button-cancel {
+    background-color: red;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+}
