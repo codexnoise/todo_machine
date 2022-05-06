@@ -10,9 +10,24 @@ function ChangeAlert({ show, toggleShow, cancelShow }) {
   if (show) {
     return (
       <div className="ChangeAlert">
-        <p>there are changes in the local storage</p>
-        <button onClick={() => toggleShow(false)}>Reload Tasks</button>
-        <button onClick={onCancel}>Cancel</button>
+        <div className="ChangeAlertContainer">
+          <p className="textAlert">there are changes in the local storage</p>
+          <div className="ChangeAlert-buttonContainer">
+            <button
+              className="ChangeAlert-button ChangeAlert-button-cancel"
+              onClick={onCancel}
+            >
+              Cancel
+            </button>
+
+            <button
+              className="ChangeAlert-button ChangeAlert-button-reload"
+              onClick={() => toggleShow(false)}
+            >
+              Reload
+            </button>
+          </div>
+        </div>
       </div>
     );
   } else {
