@@ -3,7 +3,15 @@
     color: white; 
     text-align: center;
     margin: 0;
-    padding: 48px;
+    padding: 12px;
+}
+
+.TodoTitle {
+    font-size: 42px;
+    color: green;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
 }
 
 .TodoCounter--loading{
