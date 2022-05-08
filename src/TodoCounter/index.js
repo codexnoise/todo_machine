@@ -3,9 +3,12 @@ import "./TodoCounter.css";
 
 function TodoCounter({ totalTodos, completedTodos, loading }) {
   return (
-    <h2 className={`TodoCounter ${loading && "TodoCounter--loading"}`}>
-      You have completed {completedTodos} of {totalTodos} tasks.
-    </h2>
+    <div className={`${loading && "TodoCounter--loading"}`}>
+      <h1 className="TodoTitle">toDo Machine</h1>
+      <h2 className="TodoCounter">
+        you have completed {completedTodos} of {totalTodos} tasks
+      </h2>
+    </div>
   );
 }
 
