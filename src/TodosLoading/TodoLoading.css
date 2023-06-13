@@ -1,6 +1,6 @@
 .LoadingTodo-container span{
-  width: 50px;
-  height: 50px;
+  width: 28px;
+  height: 28px;
   margin: 0 5px;
   background-color: white;
   border-radius: 50%;
@@ -48,41 +48,3 @@
 body {
   background-color: black;
 }
-
-/*.LoadingTodo-completeIcon,
-.LoadingTodo-deleteIcon {
-  border-radius: 100px;
-  height: 48px;
-  width: 48px;
-}
-
-.LoadingTodo-completeIcon {
-  position: absolute;
-  left: 12px;
-}
-
-.LoadingTodo-deleteIcon {
-  position: absolute;
-  top: -24px;
-  right: 0;
-}
-
-.LoadingTodo-container,
-.LoadingTodo-completeIcon,
-.LoadingTodo-deleteIcon {
-  background: linear-gradient(90deg, rgba(250,250,250,1), rgb(200, 199, 199));
-  background-size: 400% 400%;
-  animation: loadingAnimation 3s ease-in-out infinite;
-}
-
-@keyframes loadingAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-} */
