@@ -1,5 +1,6 @@
 .TodoCounter {
-    font-size: 24px;
+    font-family: "Courier New", monospace;
+    font-size: 22px;
     color: white; 
     text-align: center;
     margin: 0;
@@ -7,6 +8,7 @@
 }
 
 .TodoTitle {
+    font-family: "Courier New", monospace;
     font-size: 42px;
     color: green;
     text-align: center;
