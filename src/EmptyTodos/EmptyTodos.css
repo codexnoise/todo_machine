@@ -1,8 +1,8 @@
 .EmptyTodos{
     font-family: "Courier New", monospace;
     color: white;
-    font-size: 22px;
+    font-size: 28px;
     text-align: center;
-    top: 100px;
     padding: 50px;
+    font-weight: bold;
 }
