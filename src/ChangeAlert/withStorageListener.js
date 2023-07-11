@@ -5,10 +5,8 @@ function withStorageListener(WrappedComponent) {
     const [storageChange, setStorageChange] = React.useState(false);
 
     window.addEventListener("storage", (change) => {
-      if (change.key === "TODOS_V1") {
-        //console.log("HAY CAMBIOS EN EL OCAL STORAGE");
+      if (change.key === "TODOS_V1") 
         setStorageChange(true);
-      }
     });
 
     const toggleShow = () => {
