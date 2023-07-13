@@ -46,11 +46,17 @@
 }
 
 footer {
+  background-color: black;
+  color: white;
+  mix-blend-mode: difference;
   font-family: "Courier New";
   font-weight: bold;
   width: 100%;
-  color: black;
   position: fixed;
-  bottom: 0;
+  bottom: 5px;
   text-align: center; 
+}
+
+.footer:hover {
+  color: color(white blend(black 100%));
 }
