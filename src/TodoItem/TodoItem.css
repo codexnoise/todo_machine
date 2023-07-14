@@ -10,7 +10,7 @@
 }
 
 .TodoItem-p {
-  margin: 24px 0 24px 24px;
+  margin: 24px 0 24px 44px;
   width: calc(100% - 120px);
   font-size: 20px;
   line-height: 24px;
@@ -45,9 +45,11 @@
 }
 
 .Icon-delete {
-  font-size: 25px;
-  background-color: white;
-  position: absolute;
-  top: 15px;
-  right: 0;
+  font-size: 30px;
+  background-color: transparent;
+  position: relative;
+  right: -12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
