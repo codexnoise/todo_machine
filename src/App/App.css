@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .App-logo {
@@ -48,15 +49,10 @@
 footer {
   background-color: black;
   color: white;
-  mix-blend-mode: difference;
   font-family: "Courier New";
   font-weight: bold;
   width: 100%;
   position: fixed;
-  bottom: 5px;
+  bottom: 0px;
   text-align: center; 
-}
-
-.footer:hover {
-  color: color(white blend(black 100%));
 }

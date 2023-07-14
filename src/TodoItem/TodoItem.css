@@ -45,9 +45,9 @@
 }
 
 .Icon-delete {
-  background-color: red;
-  border-radius: 50%;
+  font-size: 25px;
+  background-color: white;
   position: absolute;
-  top: -18px;
+  top: 15px;
   right: 0;
 }
