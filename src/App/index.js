@@ -72,7 +72,7 @@ function App() {
       )}
       <CreateTodoButton setOpenModal={setOpenModal} />
       <ChangeAlertWithStorageListener sincronize={sincronizeTodos} />
-      <footer>developed with 💚 by @noisecodex</footer>
+      <footer>developed with 💚 by @codexnoise</footer>
     </React.Fragment>
   );
 }
